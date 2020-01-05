@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "For college attendance",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "attendance"
+  ],
+  "author": "Raj Dhami",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "convert-excel-to-json": "^1.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json2xls": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.2"
+  }
+}
